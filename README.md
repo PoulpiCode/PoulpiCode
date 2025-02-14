@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+![GitHub Snake Animation](https://raw.githubusercontent.com/PoulpiCode/PoulpiCode/output/dist/ocean.gif)
+
