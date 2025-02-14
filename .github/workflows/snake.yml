@@ -35,10 +35,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Step 3: Deploy the generated files to the 'output' branch
-      - name: Deploy to main Branch
+      - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: main  # Utiliser la branche 'output' pour déployer
+          publish_branch: output  # Assure-toi de pousser sur 'output', pas 'main'
           commit_message: "Update snake animation [skip ci]"
